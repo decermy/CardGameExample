@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc98adb31a21abf47b2800cd1b6f289d, type: 3}
+  m_Name: EnemyConfig
+  m_EditorClassIdentifier: 
+  enemyName: Enemy
+  health: 10
+  spells:
+  - spell: {fileID: 114543308356985380, guid: 94ea6c24d35f4a447b56f12555c587b7, type: 2}
+    chance: 0.4
+  - spell: {fileID: 114543308356985380, guid: 7b11d75ab89dde4498ddb1a6def5f215, type: 2}
+    chance: 0.6
